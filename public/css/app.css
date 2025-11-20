@@ -285,4 +285,9 @@ a:hover {
     padding: 20px;
     height: auto;
   }
+.final .links2{
+    flex-direction: column;
+}
+
+
 }
