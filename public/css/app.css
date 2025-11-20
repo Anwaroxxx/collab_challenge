@@ -53,8 +53,31 @@ body{
     color: white;
     background-color: rgb(255, 56, 69);
     padding: 15px;
+    border-radius: 30px;
+    padding-inline: 25px;
+    font-weight: 500;
 }
 
 .left .header-links .get{
     padding: 15px;
+    color: rgb(50, 71, 133);
+    font-weight: 500;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.form .info p{
+    color: rgb(255, 56, 69);
+    font-weight: 500;
+
+}
+
+.form .info h2{
+    color: rgb(50, 71, 133);
+    font-size: 35px;
+    
 }
