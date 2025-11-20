@@ -94,6 +94,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
+    
 }
 
 .form .info p{
@@ -106,7 +107,8 @@ a:hover{
     flex-direction: column;
     row-gap: 10px;
 }
-.form .info h2{
+
+.form  h2{
     color: rgb(50, 71, 133);
     font-size: 35px;
 }
@@ -116,10 +118,14 @@ a:hover{
     height: 35px;
     column-gap: 10px;
     background-color: rgb(239, 249, 255);
+    border: none;
+    border-radius: 5px;
 }
 
 .bottom-input input{
     width: 1461px;
     height: 90px;
     background-color: rgb(234, 247, 255);
+    border: none;
+    border-radius: 5px;
 }
