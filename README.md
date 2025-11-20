@@ -1,14 +1,31 @@
 # 🚀 Collab Challenge — Git & GitHub Workflow Practice
 
-This repository was created as a small collaboration exercise to practice a clean and professional Git workflow.  
-We focused on using branches correctly, keeping the main branch stable, resolving merge conflicts, and merging changes through pull requests.
+This repository was created as a practical collaboration challenge to strengthen our understanding of Git and GitHub.  
+We focused on applying real teamwork workflows: branching, syncing, resolving conflicts, and merging through pull requests.
 
-## ✅ What We Learned
-- Creating and switching branches using:
+---
+
+## 📌 Objectives
+- Practice clean and safe Git collaboration  
+- Learn how to work on separate branches  
+- Understand syncing with `main` correctly  
+- Handle merge conflicts confidently  
+- Use pull requests like real-world teams
+
+---
+
+## 📂 Key Concepts We Learned
+
+### 🌿 Branching Workflow
+- Creating & switching to a new branch:
   ```bash
   git switch -c branch_name / git checkout -b
   git pull / git pull origin main
   git switch 
   git merge
   git stash
+
+
+
+
   
