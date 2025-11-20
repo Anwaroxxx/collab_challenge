@@ -24,7 +24,31 @@ We focused on applying real teamwork workflows: branching, syncing, resolving co
   git switch 
   git merge
   git stash
+  ```
+---
 
+## 🧠 Extra Git Knowledge We Picked Up
+- `git status` for daily sanity  
+- `git log` to see history  
+- Why pulling before pushing is essential  
+- Branches from different PCs  
+- Rebasing vs Merging basics
+
+---
+
+## 🎯 Why This Repo Exists
+Simple:
+> A small playground to make us better at teamwork, version control.
+
+---
+
+## 👥 Contributors
+- **Anwar Azarzou**  
+- **Ghita Dennoune**
+
+---
+
+_Proudly created while learning real collab workflow._
 
 
 
