@@ -153,7 +153,6 @@ a:hover {
   outline: none;
 }
 
-
 .part3 {
   display: flex;
   padding-inline: 150px;
@@ -229,7 +228,29 @@ a:hover {
   font-weight: 500;
 }
 
+.cocacola {
+  display: none;
+}
+
 @media (max-width: 426px) {
+  .input {
+    display: none;
+  }
+  .cocacola {
+    display: block;
+  }
+
+  .cocacola .close {
+    display: none;
+  }
+
+  #menu:checked ~ label .open {
+    display: none;
+  }
+  #menu:checked ~ label .close {
+    display: block;
+  }
+
   body {
     padding-left: 0;
   }
@@ -238,10 +259,23 @@ a:hover {
     background-color: red;
     width: 100%;
     padding-inline: 20px;
+    position: relative;
   }
 
   .links {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width: 350px;
+    height: max-content;
+    position: absolute;
+    left: -350px; 
+    top: 50px;
+    transition: 0.8s ease;
+  }
+
+  #menu:checked ~ .links {
+    left: 0; 
   }
 
   .header {
