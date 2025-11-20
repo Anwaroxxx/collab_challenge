@@ -1,8 +1,8 @@
-body{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    padding-left: 30px;
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-left: 30px;
 }
 
 .navbare {
@@ -13,31 +13,28 @@ body{
   padding-inline: 150px;
 }
 .navbare .div2 .links a {
-text-decoration: none;
-font-weight: 600;
- 
+  text-decoration: none;
+  font-weight: 600;
+}
 
-} 
-.links{
-    display: flex;
- gap: 60px;
+.links {
+  display: flex;
+  gap: 60px;
   width: 110vh;
-
-
 }
-.button1{
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    color: red;
-    font-weight: bold;
-     text-transform: uppercase;
+.button1 {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-a{
-     color: rgb(50, 71, 133);
+a {
+  color: rgb(50, 71, 133);
 }
-a:hover{
-    color: red;
+a:hover {
+  color: red;
 }
 /*anwar's section*/
 .header {
@@ -54,78 +51,101 @@ a:hover{
   row-gap: 10px;
 }
 
-.left h1{
-    color: rgb(50, 71, 133);
-    font-size: 80px;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
+.left h1 {
+  color: rgb(50, 71, 133);
+  font-size: 80px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
 }
 
-.left p{
-    color: rgb(95, 95, 95);
+.left p {
+  color: rgb(95, 95, 95);
 }
 
-.left .header-links{
-    display: flex;
-    align-items: start;
-    column-gap: 20px;
+.left .header-links {
+  display: flex;
+  align-items: start;
+  column-gap: 20px;
 }
 
-.left .header-links a{
-    text-decoration: none;
+.left .header-links a {
+  text-decoration: none;
 }
 
-.left .header-links .more{
-    color: white;
-    background-color: rgb(255, 56, 69);
-    padding: 15px;
-    border-radius: 30px;
-    padding-inline: 25px;
-    font-weight: 500;
+.left .header-links .more {
+  color: white;
+  background-color: rgb(255, 56, 69);
+  padding: 15px;
+  border-radius: 30px;
+  padding-inline: 25px;
+  font-weight: 500;
 }
 
-.left .header-links .get{
-    padding: 15px;
-    color: rgb(50, 71, 133);
-    font-weight: 500;
+.left .header-links .get {
+  padding: 15px;
+  color: rgb(50, 71, 133);
+  font-weight: 500;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    background-color: antiquewhite;
-    
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.form .last-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.form .info p{
-    color: rgb(255, 56, 69);
-    font-weight: 500;
+.last-button button {
+  color: white;
+  background-color: rgb(255, 56, 69);
+  padding: 15px;
+  border-radius: 30px;
+  padding-inline: 25px;
+  font-weight: 500;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.form .info p {
+  color: rgb(255, 56, 69);
+  font-weight: 500;
 
 }
 .inputs {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }
 
-.form  h2{
-    color: rgb(50, 71, 133);
-    font-size: 35px;
+.form h2 {
+  color: rgb(50, 71, 133);
+  font-size: 35px;
 }
 
-.top-input input{
-    width: 725px;
-    height: 35px;
-    column-gap: 10px;
-    background-color: rgb(239, 249, 255);
-    border: none;
-    border-radius: 5px;
+.top-input input {
+  width: 725px;
+  height: 35px;
+  column-gap: 10px;
+  background-color: rgb(239, 249, 255);
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-.bottom-input input{
-    width: 1461px;
-    height: 90px;
-    background-color: rgb(234, 247, 255);
-    border: none;
-    border-radius: 5px;
+.bottom-input input {
+  width: 1461px;
+  height: 90px;
+  background-color: rgb(234, 247, 255);
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
