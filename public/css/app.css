@@ -159,9 +159,13 @@ a:hover {
 }
 
 @media (max-width: 426px) {
+
+    body{
+        padding-left: unset;
+    }
   .navbare {
     background-color: red;
-    width: 100%;
+    width: 100vw;
     position: relative;
   }
 
@@ -180,19 +184,33 @@ a:hover {
   .header {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    padding-inline: 50px;
   }
 
   .left {
     align-items: center;
     justify-content: center;
     row-gap: 10px;
-    width: max-content;
+    width: 100vh;
+    padding-inline: 20px;
+  }
+  .right{
+    display: flex;
+    height: 100vh;
+    
+  }
+  .right img{
+    margin-top: 30px;
+    width: 500px;
+    padding-inline: 60px;
   }
 
-  .right img{
-    width: 200px;
-  }
 }
+
+
+
+
 /*Ghita section2*/
 .part3{
     background-color: aqua;
