@@ -79,8 +79,47 @@ a:hover{
     color: white;
     background-color: rgb(255, 56, 69);
     padding: 15px;
+    border-radius: 30px;
+    padding-inline: 25px;
+    font-weight: 500;
 }
 
 .left .header-links .get{
     padding: 15px;
+    color: rgb(50, 71, 133);
+    font-weight: 500;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.form .info p{
+    color: rgb(255, 56, 69);
+    font-weight: 500;
+
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.form .info h2{
+    color: rgb(50, 71, 133);
+    font-size: 35px;
+}
+
+.top-input input{
+    width: 725px;
+    height: 35px;
+    column-gap: 10px;
+    background-color: rgb(239, 249, 255);
+}
+
+.bottom-input input{
+    width: 1461px;
+    height: 90px;
+    background-color: rgb(234, 247, 255);
 }
