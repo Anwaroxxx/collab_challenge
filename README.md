@@ -6,4 +6,9 @@ We focused on using branches correctly, keeping the main branch stable, resolvin
 ## ✅ What We Learned
 - Creating and switching branches using:
   ```bash
-  git switch -c branch_name
+  git switch -c branch_name / git checkout -b
+  git pull / git pull origin main
+  git switch 
+  git merge
+  git stash
+  
