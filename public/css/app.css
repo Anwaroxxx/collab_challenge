@@ -12,6 +12,7 @@ body {
   height: 8vh;
   padding-inline: 150px;
 }
+
 .navbare .div2 .links a {
   text-decoration: none;
   font-weight: 600;
@@ -20,8 +21,8 @@ body {
 .links {
   display: flex;
   gap: 60px;
-  width: 110vh;
 }
+
 .button1 {
   padding: 10px;
   border: none;
@@ -30,13 +31,15 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 a {
   color: rgb(50, 71, 133);
 }
+
 a:hover {
   color: red;
 }
-/*anwar's section*/
+
 .header {
   display: grid;
   grid-template-columns: 40vw 1fr;
@@ -55,7 +58,7 @@ a:hover {
 .left h1 {
   color: rgb(50, 71, 133);
   font-size: 80px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", serif;
   margin: 0;
 }
 
@@ -76,9 +79,8 @@ a:hover {
 .left .header-links .more {
   color: white;
   background-color: rgb(255, 56, 69);
-  padding: 15px;
+  padding: 15px 25px;
   border-radius: 30px;
-  padding-inline: 25px;
   font-weight: 500;
 }
 
@@ -95,6 +97,7 @@ a:hover {
   padding-inline: 150px;
   margin-bottom: 20px;
 }
+
 .form .last-button {
   display: flex;
   justify-content: center;
@@ -104,20 +107,18 @@ a:hover {
 .last-button button {
   color: white;
   background-color: rgb(255, 56, 69);
-  padding: 15px;
+  padding: 15px 25px;
   border-radius: 30px;
-  padding-inline: 25px;
   font-weight: 500;
   border: none;
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 
 .form .info p {
   color: rgb(255, 56, 69);
   font-weight: 500;
 }
+
 .inputs {
   display: flex;
   flex-direction: column;
@@ -129,171 +130,159 @@ a:hover {
   font-size: 35px;
 }
 
-.top-input{
-    display: flex;
-    column-gap: 5px;
-
+.top-input {
+  display: flex;
+  column-gap: 5px;
 }
+
 .top-input input {
-  width: 50vw;
+  width: 100%;
   height: 50px;
-  column-gap: 10px;
   background-color: rgb(239, 249, 255);
   border: none;
   border-radius: 5px;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
   outline: none;
 }
 
 .bottom-input input {
-  width: 76.3vw;
+  width: 100%;
   height: 100px;
   background-color: rgb(234, 247, 255);
   border: none;
   border-radius: 5px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   outline: none;
 }
 
-@media (max-width: 426px) {
 
-    body{
-        padding-left: unset;
-    }
-  .navbare {
-    background-color: red;
-    width: 100vw;
-    position: relative;
+.part3 {
+  display: flex;
+  padding-inline: 150px;
+  align-items: center;
+  gap: 50px;
+  height: auto;
+}
+
+.num1 {
+  padding-inline: 30px;
+  width: 300px;
+}
+
+.num2,
+.num3 {
+  background-color: whitesmoke;
+  padding: 20px 30px;
+  width: 250px;
+}
+
+.button2 {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+
+/* FINAL SECTION */
+.final {
+  background-color: rgb(50, 71, 133);
+  height: auto;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links2 {
+  display: flex;
+  gap: 40px;
+}
+
+.links2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.final h1 {
+  color: red;
+}
+
+.final h4,
+.icone2 {
+  color: white;
+}
+
+.final .Doob2 h4 {
+  padding: 10px 0;
+  font-weight: 300;
+  font-size: small;
+}
+
+.final .icone2 {
+  display: flex;
+  gap: 20px;
+  font-size: 40px;
+}
+
+.final .Doob h4 {
+  font-weight: 500;
+}
+
+@media (max-width: 426px) {
+  body {
+    padding-left: 0;
   }
 
-  .navbare .links {
-    background-color: green;
-    display: flex;
-    flex-direction: column;
-    width: 70vw;
-    height: max-content;
-    padding: 20px;
-    position: absolute;
-    /*links dertlihom display none*/
+  .navbare {
+    background-color: red;
+    width: 100%;
+    padding-inline: 20px;
+  }
+
+  .links {
     display: none;
   }
 
   .header {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    padding-inline: 50px;
+    padding: 20px;
+    width: 100%;
   }
 
   .left {
+    width: 100%;
     align-items: center;
     justify-content: center;
-    row-gap: 10px;
-    width: 100vh;
-    padding-inline: 20px;
-  }
-  .right{
-    display: flex;
-    height: 100vh;
-    
-  }
-  .right img{
-    margin-top: 30px;
-    width: 500px;
-    padding-inline: 60px;
+    padding-inline: 10px;
+    height: auto;
   }
 
-}
-
-
-
-
-/*Ghita section2*/
-.part3{
-   
+  .right {
     display: flex;
-    height: 50vh;
-    padding-inline: 150px;
-   align-items: center;
-   gap: 50px;
-}
-.num1{
-    
-      padding-inline: 30px;
-   width: 300px;
-   margin-top: -50px;
-}
-.num2{
-    background-color:whitesmoke ;
-   padding-inline: 30px;
-   width: 250px;
-    padding-top: 20px;
-   padding-bottom: 20px;
-}
-.num3{
-    background-color: whitesmoke;
-      padding-inline: 30px;
-   width: 250px;
-   padding-top: 20px;
-   padding-bottom: 20px;
-}
+    justify-content: center;
+  }
 
-.button2{
-      padding: 10px;
-    border: none;
-    border-radius: 15px;
-    color:white;
-    background-color: red;
-    font-weight: bold;
+  .right img {
+    width: 100%;
+    max-width: 350px;
+  }
 
-}
+  .form {
+    width: 100%;
+    padding: 20px;
+  }
 
+  .top-input input,
+  .bottom-input input {
+    width: 100%;
+  }
 
-
-/*Ghita section fianl */
-.final{
-    background-color: rgb(50, 71, 133);
-    height: 40vh;
-    display: flex;
+  .part3 {
     flex-direction: column;
-    align-items: center;
-   
-
+    width: 100%;
+    padding: 20px;
+    height: auto;
+  }
 }
-.links2{
-    display: flex;
-    gap: 40px;
-}
-.links2 a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    
-}
-.final h1{
-
-    color: red;
-    padding-top: -80px;
-}
-.final h4, .icone2{
-    color: white;
-}
-.final .Doob2 h4{
-    padding-top: 10px;
-padding-bottom: 10px;
-    font-weight: 300;
-    font-size: small;
-}
-.final .icone2 {
-    display: flex;
-    gap: 20px;
-    font-size: 40px;
-}
- .final .Doob h4{
-font-weight: 500;
-
-}
-
