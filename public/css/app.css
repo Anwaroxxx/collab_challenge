@@ -41,6 +41,7 @@ a:hover {
   display: grid;
   grid-template-columns: 40vw 1fr;
   margin-top: 10px;
+  padding-inline: 150px;
 }
 
 .left {
@@ -91,6 +92,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding-inline: 150px;
 }
 .form .last-button {
   display: flex;
@@ -114,7 +116,6 @@ a:hover {
 .form .info p {
   color: rgb(255, 56, 69);
   font-weight: 500;
-
 }
 .inputs {
   display: flex;
@@ -137,6 +138,7 @@ a:hover {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  outline: none;
 }
 
 .bottom-input input {
@@ -148,4 +150,41 @@ a:hover {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  outline: none;
+}
+
+@media (max-width: 426px) {
+  .navbare {
+    background-color: red;
+    width: 100%;
+    position: relative;
+  }
+
+  .navbare .links {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: max-content;
+    padding: 20px;
+    position: absolute;
+    /*links dertlihom display none*/
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    width: max-content;
+  }
+
+  .right img{
+    width: 200px;
+  }
 }
