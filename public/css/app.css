@@ -206,6 +206,15 @@ a:hover {
     padding-inline: 60px;
   }
 
+
+  .final .icone2, .links2{
+flex-direction: column;
+
+  }
+
+
+  
+
 }
 
 
