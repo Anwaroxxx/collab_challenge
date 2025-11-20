@@ -265,17 +265,26 @@ a:hover {
   .links {
     display: flex;
     flex-direction: column;
-    background-color: green;
-    width: 350px;
+    background-color: rgb(238, 238, 238);
+    backdrop-filter: blur(20px);
+    width: 400px;
     height: max-content;
     position: absolute;
-    left: -350px; 
-    top: 50px;
+    left: -410px; 
+    top: 53px;
     transition: 0.8s ease;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
   }
 
   #menu:checked ~ .links {
-    left: 0; 
+    left: 20px; 
+    top: 60px;
   }
 
   .header {
